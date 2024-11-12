@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="45" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="63">
+ <tileset firstgid="1" source="tileset01.tsx"/>
+ <tileset firstgid="501" source="tileset02.tsx"/>
+ <layer id="1" name="background" width="40" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzNmEuMFEUYx2u6A4jKopBFUQOK4ltJFAVdUDEeVkB3R4NwHJ0dYIkJc1JgOWj04Fuvm+i6ntSDibjxxWkxwqqJnjwAGrN68218RkzQXzH9Md/UVvVjZkw4/FLV9U13/ft7VNX0LGPM3FOUM+A+WARPJeyLjHkLJqLmWGh8lH5d8QZ8XDLmptiYsYQi/Se4/0n7fHgaLlb6Brkuw0CU3tdjWt/eyFRsu7IDXoSXYAxeVvrW8GyZ8xjv/w/cUVDfSBf0vRm1xsnnvx6YD1sK6pP41lNYmcM+C2bDHKVvQvlvmR2HB9vUZ/Mvrx6fvsVwHpyv9OHPyhDXNahCWr/aiKXNt5P6+uJGbEXf/bGZHFP5716HxizX8IxrYYXSt0/5z62Lv0pNjnN9QL3vwnim/z7oIjr/xE9lx29W14e0Bz3xc7H2500z321fX2tCNj2eV99h2iM59ck8W0yzHcDPg1COW8fT7FrfhMo/nz6JdV59roYq8w5BLS5m99VHVnzfgXfhPXgf9qf4b6fNT3gYdsHugP9cu9yn60PXgSUU30/gbzgGn8JnKf57jDkeD2hKa+U+vX9YPYdgKpqpT8f3K5jHvT3wNf1vYDv94bhh3xGIYdHWVx9H4QuPPh3fX+E3+B3+gD9hFax2/JdWE9qWptFXvzWPPh3f2TxzDpwGc+F02MD4Rif/0mpC2/L4z665LpJTPluIUeW/UE30R622PP4jtyp90Yk8NGsbfqvIHlbz2CzlpBXWeerX10ptFsm/wUZ9FGKwtX+yfrJyX2ozT42IPvbbSrUg+h7J1Z0Nn1d8c6XVRNb+oc8D9gyQd//+PGpdy60+e061c9RVvvlqQux1p5b0uNV3u6MvmWNc9ulXSk3csVGlT/JP6kprqzs1oTX4akmeIfp49iNaHzEazzqLL49b9W1S+lxt7baib5PSN5qhK6Rv2OO/rLY/8r9Lv+O/YUff26Xi+mqO/9zWrQFt17as/Murj/wbD+kTf8hal1YDodoRfW79dkOfzKHPL74ayKqd/0tfN2ojr76D9A/BVKmz/Mvb6pzIo+9V+q/B6wX0deI/yQmtb10b9ZsW317TnVb06fVvAdq/jfJh//+G/Bf6D1UE0WfXP31WcsE+zTtM4+dp1+bb3+T9zzWd0cn5SihHM/c3wc6xglw5syBT3PeR6ex8ZWGfnuQsMenub9p/efUd5rdH4KitYa6/VPr0mUm+weix0Hle/HQg+Z37PcbVt9E00Lq+4/p7+AF+hJ/gZ/jF+NcX8YnU8uY4H/pbW2+yx+fx33F+8y8Y+iWIIIarS359uh5F31bYlvzH1ci4qy/kv3nQA/PhLDgbFsBC+80EemERnFNQ3x4Y8fhMj7v+E31LmGcpXAgXwTI7L1wCy+FSuAwuhyvgSrjKo0+j1+rNDV9VQnHdHpvbsE/a3+6g7/rvOua53q73cAPcCKtgtf3ODzdDH6yBtXAL3Oroq0ZN2tB3ItaJvmD+9cOdsB422FqBu+BuGEjiW4Z74F5Hn/4m7dOn80xTNP9cKvAAVGEIarAVtjn69Ddpnz7JM7c+8uRf1vryEDwKu2A37IER2Kv06W/Svvoour60s388A8/Cc6XG+vxCom8xXHCKsSRhKfwHFaDV8Q==
+  </data>
+ </layer>
+ <layer id="3" name="walls" width="40" height="45" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztl9EKwzAIRTv2///Xl/Z5nzEGKwRRo1az2y4XfCg15qCJtutzWVZw24L2WduKPnul8UXjZQqd74hZxVeVz8kXj+/hO/wlnsr+oknqJxx/pu7CZ90fJX/tDEHj4+bcKD4uJ9TfwrcncVr5evnbv4ZQ3/Z5a/JVyceZxUdbl8mXGS9T/8aXLY7vl+fNwteK3uteP0aqb8X/EZVUX4sm3zk+znfy3YcP/fyh8r0esu8ovuh8Q5ofUrxMofJVfYOcieU9T1HfCjZtnWePLDb6rrenJTdWPk8dR/F5e5aXz6Ir80VYPXySH40VUeX9yODTGBH6C41xNXsD4TKuQA==
+  </data>
+ </layer>
+ <objectgroup id="2" name="actors">
+  <object id="13" name="spawner" x="448" y="272" width="32" height="32"/>
+  <object id="14" name="spawner" x="368" y="176" width="32" height="32"/>
+  <object id="15" name="spawner" x="592" y="176" width="32" height="32"/>
+  <object id="16" name="spawner" x="576" y="448" width="32" height="32"/>
+  <object id="17" name="spawner" x="368" y="400" width="32" height="32"/>
+  <object id="19" name="opened door" type="horizontal" x="64" y="560" width="32" height="16"/>
+  <object id="20" name="ventilators door" type="horizontal" x="240" y="560" width="32" height="16"/>
+  <object id="21" name="opened door" type="horizontal" x="96" y="256" width="32" height="16"/>
+  <object id="24" name="storage door" type="vertical" x="64" y="336" width="16" height="32"/>
+  <object id="25" name="opened door" type="vertical" x="304" y="32" width="16" height="32"/>
+  <object id="26" name="boss door" type="vertical" x="304" y="304" width="16" height="32"/>
+  <object id="27" name="energy" x="224" y="288" width="16" height="16"/>
+  <object id="28" name="energy" x="174" y="420" width="16" height="16"/>
+  <object id="29" name="energy" x="400" y="544" width="16" height="16"/>
+  <object id="30" name="energy" x="495.798" y="159.933" width="16" height="16"/>
+  <object id="31" name="energy" x="208.29" y="687.47" width="16" height="16"/>
+  <object id="32" name="ammo" x="191.585" y="624.165" width="16" height="16"/>
+  <object id="33" name="ammo" x="576" y="496" width="16" height="16"/>
+  <object id="34" name="ammo" x="171" y="382" width="16" height="16"/>
+  <object id="35" name="ammo" x="32" y="592" width="16" height="16"/>
+  <object id="36" name="locker" x="80" y="416" width="16" height="16"/>
+  <object id="37" name="locker" x="144" y="336" width="16" height="16"/>
+  <object id="38" name="locker" x="208" y="336" width="16" height="16"/>
+  <object id="39" name="locker" x="224" y="400" width="16" height="16"/>
+  <object id="40" name="locker" x="224" y="416" width="16" height="16"/>
+  <object id="41" name="locker" x="320" y="80" width="16" height="16"/>
+  <object id="42" name="locker" x="192" y="160" width="16" height="16"/>
+  <object id="49" name="teleport" type="teleport2" x="574" y="64" width="48" height="48"/>
+  <object id="50" name="teleport" type="teleport1" x="16" y="656" width="48" height="48"/>
+  <object id="51" name="reactor" x="192" y="176" width="80" height="80"/>
+  <object id="52" name="cooler" type="broken" x="272" y="224" width="32" height="32"/>
+  <object id="53" name="button" type="reactor button" x="192" y="480" width="16" height="16"/>
+  <object id="55" name="ventilator" type="unbroken" x="144" y="592" width="32" height="32"/>
+  <object id="56" name="ventilator" type="broken" x="240" y="592" width="32" height="32"/>
+  <object id="57" name="ventilator" type="unbroken" x="144" y="656" width="32" height="32"/>
+  <object id="58" name="ventilator" type="unbroken" x="240" y="656" width="32" height="32"/>
+  <object id="60" name="button" type="cooler button" x="336" y="208" width="16" height="16"/>
+  <object id="59" name="access card" type="ventilators door" x="479" y="678" width="16" height="16"/>
+  <object id="4" name="alien" type="running" x="24.4445" y="309.314" width="32" height="32"/>
+  <object id="5" name="alien" type="running" x="22.686" y="442.078" width="32" height="32"/>
+  <object id="6" name="alien" type="running" x="140.503" y="282.938" width="32" height="32"/>
+  <object id="7" name="alien" type="running" x="134.348" y="521.208" width="32" height="32"/>
+  <object id="8" name="alien" type="running" x="262.715" y="477.247" width="32" height="32"/>
+  <object id="9" name="alien" type="running" x="262.715" y="302.281" width="32" height="32"/>
+  <object id="10" name="alien" type="running" x="259.198" y="369.102" width="32" height="32"/>
+  <object id="18" name="alien mother" type="running" x="439.3" y="348.858" width="78" height="127"/>
+  <object id="44" name="bug" type="running" x="43.7875" y="125.556" width="32" height="32"/>
+  <object id="45" name="bug" type="running" x="142.261" y="53.459" width="32" height="32"/>
+  <object id="46" name="bug" type="running" x="422.735" y="49.0629" width="32" height="32"/>
+  <object id="47" name="bug" type="running" x="261.836" y="140.503" width="32" height="32"/>
+  <object id="48" name="bug" type="storage door" x="259.198" y="65.7682" width="32" height="32"/>
+  <object id="54" name="bug" type="running" x="527" y="64" width="32" height="32"/>
+  <object id="61" name="solder" type="east" x="17" y="613" width="32" height="32"/>
+  <object id="62" name="solder" type="north" x="96" y="461" width="32" height="32"/>
+  <object id="2" name="ellen" x="64" y="624" width="32" height="32"/>
+ </objectgroup>
+</map>
